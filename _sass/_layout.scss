@@ -372,4 +372,14 @@
     width:         calc(50% - (#{$spacing-unit} / 2));
   }
 
-  
+  /**
+  * home
+  **/
+  .latest-post-list {
+    
+    .post-date {
+      color: $grey-color;
+      font-family: $base-font-family;
+      font-size: $base-font-size;
+    }
+  }
