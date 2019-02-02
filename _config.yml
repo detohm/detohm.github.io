@@ -10,7 +10,7 @@ excerpt_separator: "<!-- readmore -->"
 markdown: kramdown
 
 disqus:
-  shortname: detohm
+  shortname: detohm-io
 
 plugins:
   - jekyll-feed
