@@ -1,0 +1,14 @@
+title: detohm
+email: ""
+description: >- 
+  I'm Coder, CTO, DevOps, Geek and Introvert.
+baseurl: "" 
+url: "https://detohm.github.io" 
+
+
+excerpt_separator: "<!-- readmore -->"
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
