@@ -1,0 +1,155 @@
+// $sidebar-bg-color: #062F4F;
+$sidebar-bg-color: #1A1A1A;
+// $home-bg-color: #0E0B16;
+// $home-bg-color: #202124;
+$home-bg-color: #FFF;
+// $base-color: #EAEAEA;
+$base-color: #484848;
+$sidebar-color: #EAEAEA;
+
+
+$body-bg-color-1:#813772;
+$body-bg-color-2:#B82601;
+$body-bg-color:#1A1A1A;
+
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height:1.5;
+
+    font-size: 16px;
+    color: $base-color;
+    @media (min-width: 38em){
+        font-size: 20px;
+    }
+}
+
+body {
+    // background-image: linear-gradient($body-bg-color-1, $body-bg-color-2);
+    // background-color: $body-bg-color;
+    height: 100%;
+}
+
+/* Heading */
+h1,h2,h3,h4,h5,p {
+    margin:0;padding:0;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    @media (min-width: 1200px) {
+        font-size: 1.8rem;
+    }
+}
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-weight: 400;
+}
+
+/* Link */
+a,a:active, a:hover, a:visited {
+  color: $body-bg-color-2;
+  text-decoration: none;
+}
+
+.container {
+    background-color: $sidebar-bg-color;
+    // margin-top:24px;
+}
+.content {
+    background-color: $home-bg-color;
+}
+.home {
+    background-color: $home-bg-color;
+    padding:10px;
+    
+    @media (min-width: 992px) {
+        padding:15px 50px;
+    }
+    .tiny-menu {
+        text-align: center;
+        margin-top: 20px;
+        a { 
+            margin:0px 3px;
+        }
+    }
+
+    p {
+        padding:15px 0px;
+    }
+
+    blockquote {
+        border-left: 4px solid $body-bg-color-2;
+        margin:10px 0px;
+        padding-left:15px;
+
+        color: #777;
+        // font-weight: 300;
+        font-size: 0.9em;
+
+    }
+
+    figure {
+        margin:0px 0px 10px 0px;
+        @media (min-width: 992px) {
+            margin:0px 20px 20px 20px;
+        }
+        img {
+            max-width: 100%;
+        }
+        figcaption {
+            font-weight: 300;
+            font-size:0.8em;
+            text-align: center;
+        }
+    }
+
+    .project-item {
+        padding:15px;
+        .image {
+            padding: 15px;
+            width:100%;
+            height: 270px;
+            background-size: cover;
+            background-position: center;
+            border: 1px solid #ccc;
+            // @media (min-width: 992px) {
+            // width: 360px;
+            // }
+        }
+        .title {
+            font-size: 1em;
+            margin:5px 0px 5px 0px;
+        }
+        .desc {
+            margin:0px 0px 30px 0px;
+            font-size: 0.8em;
+            line-height: 1.2;
+            padding-top:0px;
+        }
+        @media (min-width: 992px) {
+            
+            height: 400px;
+        }
+    
+    }
+    
+    .blog {
+        padding-bottom: 50px;
+    }
+}
+
