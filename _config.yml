@@ -3,6 +3,3 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Attaphong Rattanaveerachanon" # the name of your site, e.g. ACME Corp.
 
 source: src
-
-plugins:
-  - jekyll-sitemap
