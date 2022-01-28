@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Personal Blog
+title: Attaphong Rattanaveerachanon
 ---
 {% include home.html %}
