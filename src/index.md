@@ -1,5 +1,5 @@
 ---
 layout: default
-title: ""
+title: Personal Blog
 ---
 {% include home.html %}
