@@ -1,7 +1,9 @@
-url: https://attaphong.dev # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
-
 source: src
+
+url: https://attaphong.dev
 plugins:
-  - jekyll-sitemap
+- jekyll-sitemap
+
+sass:
+  style: compressed
+strict_front_matter: true
