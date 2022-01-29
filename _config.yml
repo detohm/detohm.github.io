@@ -1,8 +1,8 @@
-source: src
-
 url: https://attaphong.dev
 liveUrl: https://attaphong.dev
 
 sass:
   style: compressed
 strict_front_matter: true
+
+exclude: [.github, README.md]
