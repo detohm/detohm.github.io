@@ -1,8 +1,6 @@
 source: src
 
 url: https://attaphong.dev
-plugins:
-- jekyll-sitemap
 
 sass:
   style: compressed
