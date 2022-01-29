@@ -1,6 +1,7 @@
 source: src
 
 url: https://attaphong.dev
+liveUrl: https://attaphong.dev
 
 sass:
   style: compressed
