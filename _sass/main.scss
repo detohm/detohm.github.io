@@ -2,7 +2,7 @@
 $sidebar-bg-color: #1A1A1A;
 // $home-bg-color: #0E0B16;
 // $home-bg-color: #202124;
-$home-bg-color: #FFF;
+$home-bg-color: #F0EEE9;
 // $base-color: #EAEAEA;
 $base-color: #484848;
 $sidebar-color: #EAEAEA;
@@ -10,7 +10,7 @@ $sidebar-color: #EAEAEA;
 
 $body-bg-color-1:#813772;
 $body-bg-color-2:#B82601;
-$body-bg-color:#1A1A1A;
+$body-bg-color:#F0EEE9;
 
 
 * {
@@ -37,7 +37,7 @@ html {
 
 body {
     // background-image: linear-gradient($body-bg-color-1, $body-bg-color-2);
-    // background-color: $body-bg-color;
+    background-color: $body-bg-color;
     height: 100%;
 }
 
